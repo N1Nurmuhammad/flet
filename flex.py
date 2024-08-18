@@ -7,7 +7,7 @@ from flet import Page, Container, LinearGradient, alignment, Column, Row, paddin
 
 
 def main(page: Page):
-    page.title = "Flexable page"
+    page.title = "Flexible page"
 
     def on_resize(e):
         if page.width <= 730:
